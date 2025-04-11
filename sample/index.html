@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Nova | Cosmic Explorer Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon (Optional - Create a simple one) -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="80" height="80">
+            <path id="preloader-shape" d="M50 10 Q70 10, 90 50 Q70 90, 50 90 Q30 90, 10 50 Q30 10, 50 10 Z" stroke="var(--electric-blue)" stroke-width="3" fill="none"/>
+        </svg>
+    </div>
+
+    <!-- Main Content Wrapper -->
+    <div id="main-content">
+
+        <!-- Hero Section (Background image set in CSS) -->
+        <section id="hero">
+            <div class="hero-background"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">ALEX NOVA</h1>
+                <h2 class="hero-subtitle">NAVIGATING THE DIGITAL COSMOS</h2>
+                <p class="hero-description">Final Year Computer Science Student | Aspiring AI Architect & Creative Technologist</p>
+                <a href="#about" class="cta-button">EXPLORE MY UNIVERSE</a>
+            </div>
+        </section>
+
+        <!-- About Section ("Mission Control") -->
+        <section id="about" class="content-section">
+            <div class="container">
+                <h2 class="section-title">// MISSION BRIEFING</h2>
+                <div class="about-layout">
+                    <div class="about-text animate-on-scroll">
+                        <p>Driven by an insatiable curiosity for the unknown frontiers of technology, I thrive on transforming complex challenges into elegant digital solutions. My journey through Computer Science has equipped me with a robust foundation in algorithms, data structures, and software engineering principles.</p>
+                        <p>I'm particularly fascinated by the potential of Artificial Intelligence to reshape our world and the power of interactive systems to create engaging experiences. I'm eager to apply my skills in AI/ML, full-stack development, and creative technology to build impactful and innovative projects. Ready for the next launch sequence!</p>
+                        <h3>Core Technologies:</h3>
+                        <ul class="skills-list">
+                            <li><span class="skill-icon">☄</span> Python</li>
+                            <li><span class="skill-icon">☄</span> JavaScript (React, Node)</li>
+                            <li><span class="skill-icon">☄</span> Java & C++</li>
+                            <li><span class="skill-icon">☄</span> TensorFlow & Keras</li>
+                            <li><span class="skill-icon">☄</span> AWS & Docker</li>
+                            <li><span class="skill-icon">☄</span> SQL & NoSQL</li>
+                            <li><span class="skill-icon">☄</span> Figma</li>
+                        </ul>
+                        <div class="about-links">
+                            <a href="#resume-link" class="link-button" target="_blank" rel="noopener noreferrer">View Resume</a>
+                            <a href="https://github.com/yourusername" class="link-button" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://linkedin.com/in/yourusername" class="link-button" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="about-visual animate-on-scroll">
+                        <div class="visual-placeholder">
+                            <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+                                <line x1="10" y1="10" x2="90" y2="90" stroke="var(--cosmic-teal)" stroke-width="1"/>
+                                <line x1="10" y1="90" x2="90" y2="10" stroke="var(--cosmic-teal)" stroke-width="1"/>
+                                <circle cx="50" cy="50" r="20" stroke="var(--electric-blue)" stroke-width="1.5" fill="none"/>
+                                <circle cx="20" cy="20" r="10" stroke="var(--neon-purple)" stroke-width="1" fill="rgba(191, 0, 255, 0.1)"/>
+                                <circle cx="80" cy="80" r="10" stroke="var(--neon-purple)" stroke-width="1" fill="rgba(191, 0, 255, 0.1)"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section ("Star Systems Discovered") -->
+        <section id="projects" class="content-section">
+            <div class="container">
+                <h2 class="section-title">// STAR SYSTEMS DISCOVERED</h2>
+                <div class="project-grid">
+                    <!-- Project Card 1: Chimera (AI/Detection) -->
+                    <div class="project-card animate-on-scroll">
+                        <div class="project-thumbnail">
+                            <!-- Image representing AI / Neural Network / Glitch -->
+                            <img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Project Chimera - AI Network Concept">
+                        </div>
+                        <div class="project-info">
+                             <h3>Project: Chimera</h3>
+                             <p>Real-time Deepfake Detection using Adversarial Neural Networks. Achieved 96% accuracy.</p>
+                             <p class="tech-stack">Tech: Python, TensorFlow, Keras, OpenCV, JS</p>
+                             <a href="#project-detail-link" class="link-button small">Learn More</a>
+                        </div>
+                    </div>
+                     <!-- Project Card 2: Astraeus (Space Generation) -->
+                    <div class="project-card animate-on-scroll">
+                        <div class="project-thumbnail">
+                             <!-- Image of a Nebula / Star System -->
+                             <img src="https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80" alt="Project Astraeus - Nebula Generation Concept">
+                        </div>
+                        <div class="project-info">
+                            <h3>Project: Astraeus</h3>
+                            <p>Procedural Nebula & Star System Generator using C++ and compute shaders (OpenGL).</p>
+                            <p class="tech-stack">Tech: C++, OpenGL, GLSL, CMake</p>
+                            <a href="#project-detail-link" class="link-button small">Learn More</a>
+                        </div>
+                    </div>
+                     <!-- Project Card 3: Sentience (Narrative AI) -->
+                    <div class="project-card animate-on-scroll">
+                        <div class="project-thumbnail">
+                            <!-- Image representing text, data flow, or abstract thought -->
+                             <img src="https://images.unsplash.com/photo-1505682499293-233fb141754c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Project Sentience - Narrative AI Concept">
+                        </div>
+                        <div class="project-info">
+                             <h3>Project: Sentience</h3>
+                             <p>AI-Powered Narrative Engine for Interactive Fiction using GPT/Transformers.</p>
+                             <p class="tech-stack">Tech: Python, Transformers, NLTK, Flask, React</p>
+                             <a href="#project-detail-link" class="link-button small">Learn More</a>
+                        </div>
+                    </div>
+                     <!-- Project Card 4: QuantumLeap (UI Kit) -->
+                    <div class="project-card animate-on-scroll">
+                        <div class="project-thumbnail">
+                             <!-- Image representing UI/UX, abstract design, gradients -->
+                             <img src="https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Project QuantumLeap - UI Design System Concept">
+                        </div>
+                        <div class="project-info">
+                            <h3>Project: QuantumLeap</h3>
+                            <p>Cross-Platform Design System & UI Kit for Fintech Apps (React & Swift).</p>
+                            <p class="tech-stack">Tech: React, TypeScript, Swift, Figma, Storybook</p>
+                            <a href="#project-detail-link" class="link-button small">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section ("Galactic Commendations") -->
+        <section id="achievements" class="content-section">
+            <div class="container">
+                <h2 class="section-title">// GALACTIC COMMENDATIONS</h2>
+                <div class="achievements-list">
+                    <div class="achievement-item animate-on-scroll">
+                        <h4>Dean's List Distinction</h4>
+                        <p>Awarded for outstanding academic performance across 6 consecutive semesters.</p>
+                    </div>
+                    <div class="achievement-item animate-on-scroll">
+                        <h4>Winner - CosmoCode Hackathon 2023</h4>
+                        <p>Led winning team developing an AI tool for analyzing telescope data streams.</p>
+                    </div>
+                    <div class="achievement-item animate-on-scroll">
+                        <h4>Open Source Contributor</h4>
+                        <p>Recognized contributions to the 'Starlight-Plot' data visualization library.</p>
+                    </div>
+                     <div class="achievement-item animate-on-scroll">
+                        <h4>Research Assistant - University AI Lab</h4>
+                        <p>Assisted research on optimizing simulation parameters for dark matter distribution models.</p>
+                    </div>
+                    <div class="achievement-item animate-on-scroll">
+                        <h4>AWS Certified Cloud Practitioner</h4>
+                        <p>Demonstrated foundational knowledge of AWS cloud services and architecture.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section ("Establish Communication Link") (Background image set in CSS) -->
+        <section id="contact" class="content-section">
+            <div class="container text-center">
+                 <h2 class="section-title">// ESTABLISH COMMUNICATION LINK</h2>
+                 <p class="contact-message animate-on-scroll">Ready to embark on the next mission? Let's connect and create something stellar. I'm actively seeking full-time opportunities and exciting collaborations.</p>
+                 <div class="contact-links animate-on-scroll">
+                     <a href="mailto:alex.nova.dev@email.com" class="link-button large">alex.nova.dev@email.com</a>
+                     <a href="https://linkedin.com/in/yourusername" class="link-button large" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                 </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© <span id="current-year"></span> Alex Nova | Crafted with <span class="code-icon">⚙</span> in the Digital Void</p>
+            <p style="font-size: 0.7rem; opacity: 0.6; margin-top: 0.5rem;">Background and project images courtesy of Unsplash. Please download and host your own images for production use.</p>
+        </footer>
+
+    </div> <!-- End Main Content Wrapper -->
+
+    <!-- Anime.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+
+</body>
+</html>
